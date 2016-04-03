@@ -1,0 +1,7 @@
+{
+  "name": "ts_intro",
+  "version": "1.0.0",
+  "devDependencies": {
+    "typescript": "^1.8.9"
+  }
+}
