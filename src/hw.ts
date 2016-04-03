@@ -22,9 +22,9 @@ const greetArrow = (name/*Error: param has any type */) => {
     return "Hello, " + name;
 };
 
+//by let or const TS can manage dead zones
 console.log(greetArrowTs('Dead zone'));
 
-//by let or const TS can manage dead zones
 //can't bind this with arrow function
 //arrow function isn't new-able
 const greetArrowTs = (name: string) => "Hello, " + name;
