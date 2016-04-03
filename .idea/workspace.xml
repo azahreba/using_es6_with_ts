@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4733eaf5-e91d-4583-a798-c05c4d68e550" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw.js.map" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hw.js" afterPath="$PROJECT_DIR$/src/hw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hw.ts" afterPath="$PROJECT_DIR$/src/hw.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TS.iml" afterPath="$PROJECT_DIR$/TS.iml" />
     </list>
     <ignored path="TS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -166,6 +161,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="TS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hw.ts" />
+              <option name="myItemType" value="com.intellij.lang.typescript.compiler.ui.projectView.TypeScriptNestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -637,7 +650,7 @@
       <created>1459714220743</created>
       <option name="number" value="Default" />
       <updated>1459714220743</updated>
-      <workItem from="1459714221964" duration="3399000" />
+      <workItem from="1459714221964" duration="3491000" />
     </task>
     <task id="LOCAL-00001" summary="add tsconfig">
       <created>1459717749241</created>
@@ -651,11 +664,23 @@
       <option name="project" value="LOCAL" />
       <updated>1459718994225</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="explore features of TS">
+      <created>1459719155776</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1459719155776</updated>
+    </task>
+    <task id="LOCAL-00004" summary="explore features of TS">
+      <created>1459719182789</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1459719182789</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3399000" />
+    <option name="totallyTimeSpent" value="3491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="825" y="23" width="615" height="829" extended-state="0" />
