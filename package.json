@@ -2,6 +2,7 @@
   "name": "ts_intro",
   "version": "1.0.0",
   "devDependencies": {
+    "requirejs": "^2.2.0",
     "typescript": "^1.8.9"
   }
 }

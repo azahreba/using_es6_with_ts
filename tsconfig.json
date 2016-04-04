@@ -5,7 +5,7 @@
     "emitDecoratorMetadata": true,
 
     "isolatedModules": false,
-    "module": "commonjs",
+    "module": "amd",
     "noImplicitAny": true,
     "noLib": false,
     "removeComments": true,
@@ -18,5 +18,4 @@
   "exclude": [
     "node_modules"
   ]
-  , "externalTranspiler": "babel"
 }
