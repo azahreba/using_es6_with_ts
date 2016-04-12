@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Using ES6 with TypeScript</title>
-</head>
-<body>
-
-<script data-main="hw" src="lib/requirejs/require.js"></script>
-</body>
+<meta charset="UTF-8">
+<title>Using ES6 with TypeScript</title>
+<!--<script data-main="hw" src="lib/requirejs/require.js"></script>-->
+<script src="lib/systemjs/system.js"></script>
+<script src="system-config.js"></script>
+<script>
+    System.import('hw');
+</script>
 </html>

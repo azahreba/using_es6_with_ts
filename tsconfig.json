@@ -5,7 +5,7 @@
     "emitDecoratorMetadata": true,
 
     "isolatedModules": false,
-    "module": "amd",
+    "module": "system",
     "noImplicitAny": true,
     "noLib": false,
     "removeComments": true,

@@ -2,7 +2,11 @@
   "name": "ts_intro",
   "version": "1.0.0",
   "devDependencies": {
+    "jquery": "^2.2.3",
     "requirejs": "^2.2.0",
+    "systemjs": "^0.19.26",
+    "tsd": "^0.6.5",
+    "tslint": "^3.7.4",
     "typescript": "^1.8.9"
   }
 }
