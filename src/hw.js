@@ -1,6 +1,6 @@
 System.register(['./module', 'jquery'], function(exports_1) {
     var module_1, jquery_1;
-    var tsNameSpace, fn, Engine, Car, Sprite, Player, Monster;
+    var ts, ns, fn, Engine, Car, Sprite, Player, Monster;
     function iFn(num) {
         return num * 100;
     }
@@ -19,11 +19,14 @@ System.register(['./module', 'jquery'], function(exports_1) {
             {
                 const obj = { a: 1 };
                 obj.a = 2;
-                var tsNameSpace;
-                (function (tsNameSpace) {
-                    tsNameSpace.a = 1;
-                })(tsNameSpace || (tsNameSpace = {}));
-                tsNameSpace.a = 3;
+                var ts;
+                (function (ts) {
+                    var NameSpace;
+                    (function (NameSpace) {
+                        NameSpace.a = 1;
+                    })(NameSpace = ts.NameSpace || (ts.NameSpace = {}));
+                })(ts || (ts = {}));
+                ts.NameSpace.a = 3;
             }
             {
                 const greetArrow = (name) => {
